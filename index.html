@@ -2,16 +2,18 @@
 <html lang="fr">
 <head>
     <title>Ligue Pokémon de Genève</title>
+    <link rel="icon" href="logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d28a3c2749.js" crossorigin="anonymous"></script>
 </head>
 <style>
     body {
-        background-image: url('background.png');
+        background-image: url('background_moltres.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -19,35 +21,261 @@
         background-color: #ffcf55;
     }
 
+    h1 {
+        color: white;
+    }
+    
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .navbar {
+        background: #2c2e2c;
+        opacity: 0.9;      
+    }
+
     .jumbotron {
+        background: #2c2e2c;
+        margin: 64px 0 0 0;
+        padding: 0 0 20px 0;
+        opacity: 0.9;
+    }
+
+    .transparent-intro-block {
         background: transparent;
-        padding: 200px 0 0 0;
+        padding: 0 0 820px 0;
     }
 
     .navbar .btn {
         margin: 5px 5px 5px 5px;
     }
+    
+    .bg1 {
+        background: #990000;
+        opacity: 0.9;
+        color: white;
+        padding: 30px 50px 50px 30px;
+    }
+
+    .bg2 {
+        background: #9e9e9e;
+        opacity: 0.9;
+        color: white;
+        padding: 30px 50px 50px 30px;
+    }
+
+    .bg3 {
+        background: #2c2e2c;
+        opacity: 0.9;     
+        padding: 28px 50px 20px 30px;
+    }  
+    
+    .logo {
+        width: 200px;
+        padding: 10px 0 10px 0;
+    }
+
+    .title img {
+        width: 600px;
+    }
+
+    .slide {
+        width: 600px;
+    }
+
+    .img-col{
+        height: 250px;
+    }
+
+    .creator-name {
+        color: white;
+    }
+
+    .fab {
+        padding: 5px 30px 0 30px;
+        color: white;
+    }
+
+    .fa-discord:hover {
+        color: #7289d9;
+    }
+
+    .fa-facebook-f:hover {
+        color: #3b5998;
+    }
+
+    @media screen and (max-width: 480px) {
+        .slide {
+            width: 380px;
+        }
+
+        iframe {
+            width: 380px;
+        }
+    }
+
+    @media screen and (max-width: 664px) {
+        .jumbotron {
+            margin: 112px 0 0 0;
+        }
+
+        .title img {
+            width: 400px;
+        }
+    }
 
 </style>
 <body>
-    <nav class="navbar navbar-light fixed-top justify-content-center" style="background-color: transparent;">
+    <nav class="navbar navbar-light fixed-top justify-content-center">
         <form class="form-inline">
-            <a href="#"><button class="btn btn-outline-dark" type="button">LE JEU ORGANISÉ</button></a>
-            <a href="#"><button class="btn btn-outline-dark" type="button">LA LIGUE</button></a>
-            <a href="#"><button class="btn btn-outline-dark" type="button">NOTRE HISTOIRE</button></a>
-            <a href="#"><button class="btn btn-outline-dark" type="button">NOUS CONTACTER</button></a>
+            <a href="#jeu"><button class="btn btn-outline-light" type="button">LE JEU ORGANISÉ</button></a>
+            <a href="#ligue"><button class="btn btn-outline-light" type="button">LA LIGUE</button></a>
+            <a href="#histoire"><button class="btn btn-outline-light" type="button">NOTRE HISTOIRE</button></a>
+            <a href="#contact"><button class="btn btn-outline-light" type="button">NOUS CONTACTER</button></a>
         </form>
     </nav>
-    <div class="container">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-4 text-center">Ligue Pokémon de Genève</h1>
-        </div>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="title text-center"><img src="title.png"/></div>
     </div>
-    <div class="container">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-4 text-center">Ligue Pokémon de Genève</h1>
-        </div>
+    <div class="container-fluid transparent-intro-block">
     </div>
+    <div id="jeu" class="container-fluid bg1">
+        <h2 class="display-4 text-center">Le jeu organisé</h2>
+        <div class="row">    
+            <div class="col">
+                <p>Les compétitions Pokémon se déclinent actuellement en trois disciplines distinctes : le jeu vidéo, Pokken Tournament et bien sûr le jeu de cartes.<br><br>
 
+                Tant les débutants, les amateurs que les joueurs semi-professionnels ont la possibilité de profiter à leur manière des évènements officiels organisés sous la supervision de Play! Pokémon, l’entité centrale basée aux États-Unis.<br><br>
+
+                Les joueurs sont répartis en trois catégories d’âges (junior, senior et master) pour permettre tant aux enfants qu’aux adultes de prendre plaisir dans leurs contextes compétitifs respectifs.<br><br>
+
+                Le circuit actuel comprend des ligues et des petits tournois organisés localement en Suisse, des tournois régionaux de haut niveau organisés dans les plus grandes villes du monde, des tournois internationaux tel que le championnat d’Europe et surtout le championnat du monde qui se déroule chaque été et permet de désigner les meilleurs joueurs du monde.
+
+                Bien que les premières cartes Pokémon soient sorties il y a plus de 24 ans, le jeu compétitif est en constante croissance avec toujours plus de joueurs. Surfant sur la vague des eSports, Pokémon a récemment implémenté dans son circuit un système de récompense monétaire qui a conduit à la semi-professionnalisation du jeu ainsi que la retransmission des plus grands tournois, attirant de nombreux sponsors.</p>
+            </div>
+            <div class="col">
+                <center><div id="slideshow" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                    </ul>
+                    <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#slideshow" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="carousel1.png" class="slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Devenez un vrai pro !</h5>
+                                <p>Le jeu  de carte Pokémon de haut niveau nécessite un entraînement régulier digne des plus grands sportifs !</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel2.jpg" class="slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Représentez Genève !</h5>
+                                <p>Les valeurs de la ligue de Genève sont l'honneur, la discipline et l'entraide entre joueurs genevois pour représenter notre belle ville aux quatres coins du monde avec fierté !</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="carousel3.jpg" class="slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Mesurez-vous à l'élite !</h5>
+                                <p>Les valeurs de la ligue de Genève sont l'honneur, la discipline et l'entraide entre joueurs genevois pour représenter notre belle ville aux quatres coins du monde avec fierté !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div></center>
+            </div>
+        </div>    
+    </div>  
+    <div id="ligue" class="container-fluid bg2">
+        <h2 class="display-4 text-center">La ligue</h2>
+        <div class="row">
+            <div class="col">
+                <p>La ligue Pokémon de Genève se consacre uniquement au jeu de cartes et est l’endroit idéal pour rencontrer d’autres joueurs Pokémon, tester de nouveaux decks et se préparer pour les tournois de plus grande envergure !<br><br>
+
+                La ligue se déroule régulièrement à l’adresse suivante :</p>
+
+                <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5482.867741582459!2d6.140355170634832!3d46.204496232381445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c65263ed90abd%3A0xd7dde87f6173c04e!2sEdward&#39;s%20Mont-Blanc!5e0!3m2!1sfr!2sua!4v1584511688426!5m2!1sfr!2sua" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="text-center"></iframe></center>
+            </div>
+            <div class="col">
+                <p>Vous êtes la bienvenue quel que soit votre degré d'expérience et votre âge !<br>
+                Vous pouvez également remporter de nombreuses récompenses en y participant !<br><br>
+
+                Voici l'agenda de notre ligue Pokémon :</p>
+
+                <center><iframe src="https://calendar.google.com/calendar/embed?src=hg1uk85j485dog5m7pg432a4u8%40group.calendar.google.com&ctz=Europe%2FKiev" style="border: 0" width="500" height="300" frameborder="0" scrolling="no" class="text-center"></iframe></center>
+            </div>
+        </div>      
+    </div>  
+    <div id="histoire" class="container-fluid bg1">
+        <h2 class="display-4 text-center">Notre histoire</h2>
+        <div class="row">
+            <div class="col text-center">
+                <img class="img-col" src="geneve.jpg"/><br><br>
+            </div>
+            <div class="col">
+                <p>La ligue Pokémon de Genève est bien plus qu’un évènement, c’est une communauté de joueurs unis avec pour but de représenter Genève avec fierté lors des tournois, qu’ils soient en Suisse, en Europe ou bien n’importe où dans le monde !<br><br>
+
+                Plusieurs joueurs genevois ont déjà brillé au plus haut niveau à plusieurs reprises avec trois joueurs genevois ayant déjà participé au moins une fois aux championnats du monde.<br><br>
+
+                En outre, le genevois Gabriel fut le tout premier Suisse de l’histoire à atteindre la phase à élimination directe lors d’un championnat du monde !<br><br>
+
+                Rejoignez la ligue Pokémon de Genève et continuez à bâtir son histoire glorieuse !
+                </p>
+            </div>
+        </div>      
+    </div>
+    <div id="contact" class="container-fluid bg2">
+        <h2 class="display-4 text-center">Nous contacter</h2>
+        <div class="row">
+            <div class="col text-center">
+                <img src="logo.png" class="logo">
+            </div>
+            <div class="col">
+                <p>Notre ligue possède sa propre page Facebook et un groupe Discord.
+                N’hésitez pas à utiliser un de ces moyens pour nous contacter et obtenir plus d’informations !</p>
+                <div class="text-center">
+                    <a href="https://www.facebook.com/Pok%C3%A9mon-Gen%C3%A8ve-TCG-112934038864703/"><i class="fab fa-facebook-f fa-5x"></i></a>
+                    <a href="https://discordapp.com/invite/UeMAKxD?fbclid=IwAR3EbgFSSR_ZYye5YLV-swAcPL6YbAklj1u8eikwCJQHdyyYuRRpKRooWyQ"><i class="fab fa-discord fa-5x"></i></a>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <div class="container-fluid bg3 text-center">
+        <i class="creator-name">Créé par Rafael Pacheco</i>
+    </div>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links in navbar + footer link
+          $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+           // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              });
+            } // End if
+          });
+        })
+    </script> 
 </body>
 </html> 
